@@ -13,6 +13,7 @@
 		F213A82324E5C9BF0096921A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F213A82224E5C9BF0096921A /* Assets.xcassets */; };
 		F213A82624E5C9BF0096921A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F213A82524E5C9BF0096921A /* Preview Assets.xcassets */; };
 		F213A82924E5C9BF0096921A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F213A82724E5C9BF0096921A /* LaunchScreen.storyboard */; };
+		F213A83124E5CA7C0096921A /* PaymentHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F213A83024E5CA7B0096921A /* PaymentHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		F213A82524E5C9BF0096921A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F213A82824E5C9BF0096921A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F213A82A24E5C9BF0096921A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F213A83024E5CA7B0096921A /* PaymentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistory.swift; sourceTree = "<group>"; };
+		F2A66E4A24EB1F96007F7599 /* Screen Recording 2020-08-17 at 20.58.57-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Screen Recording 2020-08-17 at 20.58.57-2.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +59,11 @@
 		F213A81B24E5C9B90096921A /* Card Motion */ = {
 			isa = PBXGroup;
 			children = (
+				F2A66E4924EB1F86007F7599 /* Video Asset */,
 				F213A81C24E5C9B90096921A /* AppDelegate.swift */,
 				F213A81E24E5C9B90096921A /* SceneDelegate.swift */,
 				F213A82024E5C9B90096921A /* ContentView.swift */,
+				F213A83024E5CA7B0096921A /* PaymentHistory.swift */,
 				F213A82224E5C9BF0096921A /* Assets.xcassets */,
 				F213A82724E5C9BF0096921A /* LaunchScreen.storyboard */,
 				F213A82A24E5C9BF0096921A /* Info.plist */,
@@ -73,6 +78,14 @@
 				F213A82524E5C9BF0096921A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2A66E4924EB1F86007F7599 /* Video Asset */ = {
+			isa = PBXGroup;
+			children = (
+				F2A66E4A24EB1F96007F7599 /* Screen Recording 2020-08-17 at 20.58.57-2.mp4 */,
+			);
+			path = "Video Asset";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 				F213A81D24E5C9B90096921A /* AppDelegate.swift in Sources */,
 				F213A81F24E5C9B90096921A /* SceneDelegate.swift in Sources */,
 				F213A82124E5C9B90096921A /* ContentView.swift in Sources */,
+				F213A83124E5CA7C0096921A /* PaymentHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
