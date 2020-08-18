@@ -26,3 +26,4 @@
 1. Center card when tapped (Geometry reader or ScrollView Reader);
 2. Summon transactions according to card in center position;
 3. Allow transaction card to be slidable to dismiss;
+4. Dark Mode
