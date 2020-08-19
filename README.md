@@ -23,10 +23,10 @@
   
 ## 📝 Remaining features to add
 
-1. Center card when tapped (Geometry reader or ScrollView Reader) [Added ✅];
-2. Summon transactions according to card in center position;
-3. Allow transaction card to be slidable to dismiss;
-4. Dark Mode
+- [x] Center card when tapped (Geometry reader or ScrollView Reader)
+- [ ]  Summon transactions according to card in center position;
+- [ ] Allow transaction card to be slidable to dismiss;
+- [ ] Dark Mode
 
 ## 🦟 Bugs
 1. When removing scrollview and summoning bottom card, it will clip the shape and not display data;
