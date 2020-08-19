@@ -24,9 +24,9 @@
 ## 📝 Remaining features to add
 
 - [x] Center card when tapped (Geometry reader or ScrollView Reader)
-- [ ]  Summon transactions according to card in center position;
+- [ ] Summon transactions according to card in center position;
 - [ ] Allow transaction card to be slidable to dismiss;
-- [ ] Dark Mode
+- [x] Dark Mode
 - [ ] Adapt to multiple screen sizes
 
 ## 🦟 Bugs
