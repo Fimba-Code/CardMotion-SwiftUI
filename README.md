@@ -18,7 +18,7 @@
 
 1. Clone the repo;
 2. Open the cloned repo;
-3. Select iPad Pro 11 inch
+3. Select iPhone 11 Pro
 4. Run application by pressing CMD + R;
   
 ## 📝 Remaining features to add
@@ -27,6 +27,7 @@
 - [ ]  Summon transactions according to card in center position;
 - [ ] Allow transaction card to be slidable to dismiss;
 - [ ] Dark Mode
+- [ ] Adapt to multiple screen sizes
 
 ## 🦟 Bugs
-1. When removing scrollview and summoning bottom card, it will clip the shape and not display data;
+1. Transactions bottom card does not change according to selected credit/debit card selected;
