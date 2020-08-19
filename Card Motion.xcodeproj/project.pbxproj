@@ -15,6 +15,7 @@
 		F213A82924E5C9BF0096921A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F213A82724E5C9BF0096921A /* LaunchScreen.storyboard */; };
 		F213A83124E5CA7C0096921A /* PaymentHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F213A83024E5CA7B0096921A /* PaymentHistory.swift */; };
 		F2A66E4C24EB22C7007F7599 /* ezgif.com-video-to-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = F2A66E4B24EB22C7007F7599 /* ezgif.com-video-to-gif.gif */; };
+		F2CE9CE424EC9C6900F63324 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE9CE324EC9C6900F63324 /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F213A82A24E5C9BF0096921A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F213A83024E5CA7B0096921A /* PaymentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistory.swift; sourceTree = "<group>"; };
 		F2A66E4B24EB22C7007F7599 /* ezgif.com-video-to-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-video-to-gif.gif"; sourceTree = "<group>"; };
+		F2CE9CE324EC9C6900F63324 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				F213A81E24E5C9B90096921A /* SceneDelegate.swift */,
 				F213A82024E5C9B90096921A /* ContentView.swift */,
 				F213A83024E5CA7B0096921A /* PaymentHistory.swift */,
+				F2CE9CE324EC9C6900F63324 /* Modifiers.swift */,
 				F213A82224E5C9BF0096921A /* Assets.xcassets */,
 				F213A82724E5C9BF0096921A /* LaunchScreen.storyboard */,
 				F213A82A24E5C9BF0096921A /* Info.plist */,
@@ -165,6 +168,7 @@
 				F213A81F24E5C9B90096921A /* SceneDelegate.swift in Sources */,
 				F213A82124E5C9B90096921A /* ContentView.swift in Sources */,
 				F213A83124E5CA7C0096921A /* PaymentHistory.swift in Sources */,
+				F2CE9CE424EC9C6900F63324 /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,6 +31,7 @@ struct PaymentHistory: View {
             }
             }
             .padding(.vertical, 1)
+            .padding(.bottom, 8)
         }
         .frame(height: 400)
         .frame(maxWidth: .infinity)
@@ -93,5 +94,7 @@ let historyData = [
     HistoryStructure(serviceProviderLogo: "PizzaHut", serviceName: "PizzaHut", serviceDateCharged: "Today", serviceAmountCharged: 18000),
     HistoryStructure(serviceProviderLogo: "Unitel", serviceName: "Unitel", serviceDateCharged: "Yesterday", serviceAmountCharged: 11000),
     HistoryStructure(serviceProviderLogo: "Spotify", serviceName: "Spotify", serviceDateCharged: "Friday", serviceAmountCharged: 7600),
-    HistoryStructure(serviceProviderLogo: "Codigo-qr", serviceName: "Código QR", serviceDateCharged: "Thursday", serviceAmountCharged: 8900)
+    HistoryStructure(serviceProviderLogo: "Codigo-qr", serviceName: "Código QR", serviceDateCharged: "Thursday", serviceAmountCharged: 8900),
+    HistoryStructure(serviceProviderLogo: "Unitel", serviceName: "Unitel", serviceDateCharged: "Wednesday", serviceAmountCharged: 16000),
+        HistoryStructure(serviceProviderLogo: "netflix", serviceName: "Netflix", serviceDateCharged: "Wednesday", serviceAmountCharged: 22200)
 ]

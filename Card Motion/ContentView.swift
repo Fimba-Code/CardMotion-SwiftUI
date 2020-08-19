@@ -15,14 +15,13 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {
                     ForEach(cardSection) { item in
                         GeometryReader { geometry in
                             VStack {
                                 CardBalance(isCardTapped: self.$isCardTapped, cardData: item)
                                 Card(isCardTapped: self.$isCardTapped, card: item)
-                                .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX - 20) / 30), axis: (x: 10, y: -20, z: 0))
+                                .rotation3DEffect(Angle(degrees: Double(geometry.frame(in: .global).minX - 20) / 30), axis: (x: 15, y: -20, z: 0))
                             }
                             .padding(.horizontal, 19)
                             .offset(y: -130)
@@ -32,7 +31,7 @@ struct ContentView: View {
                     }
                 }
                 .frame(maxHeight: .infinity)
-            }
+                .modifier(ScrollingHStackModifier(items: cardSection.count, itemWidth: 300, itemSpacing: 95))
             
             
             VStack {
