@@ -34,7 +34,7 @@ struct PaymentHistory: View {
             .padding(.bottom, 8)
         }
         .frame(height: 400)
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: 375)
         .background(Color(#colorLiteral(red: 0.1257158969, green: 0.1361153488, blue: 0.1512231692, alpha: 1)))
         .cornerRadius(20)
     }
