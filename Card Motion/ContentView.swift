@@ -101,10 +101,10 @@ struct Card: View {
         .padding()
         .background(LinearGradient(gradient: Gradient(colors: [card.linearColor1, card.linearColor2]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
         .cornerRadius(15)
+        .shadow(color: card.shadow.opacity(0.5), radius: 10, x: 0, y: 15)
         .scaleEffect(self.isCardTapped ? 1 : 1.20)
         .rotationEffect(Angle(degrees: self.isCardTapped ? 0 : 90))
         .offset(y: self.isCardTapped ? -170 : 0)
-        .shadow(color: card.shadow.opacity(0.5), radius: 10, x: 0, y: 15)
         .animation(.spring(response: 0.4, dampingFraction: 0.6, blendDuration: 0))
         .onTapGesture {
             self.isCardTapped.toggle()
