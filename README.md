@@ -30,4 +30,4 @@
 - [ ] Adapt to multiple screen sizes
 
 ## 🦟 Bugs
-1. When removing scrollview and summoning bottom card, it will clip the shape and not display data;
+1. Transactions bottom card does not change according to selected credit/debit card selected;
