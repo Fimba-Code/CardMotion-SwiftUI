@@ -40,7 +40,7 @@ struct ContentView: View {
                     ZStack {
                         Circle()
                             .frame(width: 50, height: 50)
-                            .foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)))
+                            .foregroundColor(.secondary)
                         Image(systemName: "plus")
                             .foregroundColor(Color.black)
                     }
@@ -117,15 +117,15 @@ struct CardBalance: View {
     var body: some View {
         VStack(spacing: 10) {
             Text("Current Balance")
-                .foregroundColor(Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                .foregroundColor(.secondary)
                 .opacity(isCardTapped ? 0 : 1)
             Text("AKZ \(cardData.cardAmount)")
-                .foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)))
+                .foregroundColor(.primary)
                 .bold()
                 .font(.system(size: 38))
                 .opacity(isCardTapped ? 0 : 1)
             Text("Transactions")
-                .foregroundColor(Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)))
+                .foregroundColor(.primary)
                 .bold()
                 .font(.system(size: 31))
                 .opacity(isCardTapped ? 1 : 0)
